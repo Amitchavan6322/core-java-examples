@@ -1,4 +1,4 @@
-package com.amit.practice.model;
+package com.amit.govtschemeapp.model;
 
 import java.util.Scanner;
 
