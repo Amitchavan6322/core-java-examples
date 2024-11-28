@@ -7,10 +7,13 @@ public class ProductService {
 
     public Product acceptProductData(){ // here return type is class name not object name
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Please enter product id");
         int productId = Integer.parseInt(scanner.nextLine());
+
         System.out.println("Please enter product name");
         String productName = scanner.nextLine();
+
         System.out.println("Please enter product price");
         double productPrice = Double.parseDouble(scanner.nextLine());
 

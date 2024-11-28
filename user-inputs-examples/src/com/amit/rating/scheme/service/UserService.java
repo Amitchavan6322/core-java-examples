@@ -7,10 +7,13 @@ import java.util.Scanner;
 public class UserService {
     public User acceptUserData(){ // here return type is class name not object name
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Please enter user id");
         int userId = Integer.parseInt(scanner.nextLine());
+
         System.out.println("Please enter user first name");
         String firstName = scanner.nextLine();
+
         System.out.println("Please enter user last name");
         String lastName = scanner.nextLine();
 
