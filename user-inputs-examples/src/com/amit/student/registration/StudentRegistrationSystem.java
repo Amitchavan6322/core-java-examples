@@ -14,6 +14,7 @@ public class StudentRegistrationSystem {
     public static void main(String[] args) throws ParseException {
 
         System.out.println("Welcome to the student registration system");
+
         StudentService studentService = new StudentService();
         StudentInfo student = studentService.acceptStudentData();
 
