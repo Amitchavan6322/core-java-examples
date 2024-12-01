@@ -10,11 +10,11 @@ public class AgeRestriction {
 
         try {
             double age = Double.parseDouble(scanner.nextLine());
-            if (age > 18) {
-                System.out.println("Congratulations, you have access to this web content");
-            } else {
+            if (age < 18) {
                 System.out.println("Alert:: Access denied, you are too young to access this web content");
-            }
+            } else {
+                System.out.println("Congratulations, you have access to this web content");
+                }
         } catch (NumberFormatException e) {
             System.out.println("Invalid input. please enter a valid age");
         }

@@ -9,7 +9,7 @@ public class SpeedViolation {
 
         try {
             double speed = Double.parseDouble(scanner.nextLine());
-            if (speed < 80) {
+            if (80 < speed) {
                 System.out.println("Congratulations, you are following speed limit");
             } else {
                 System.out.println("You have been fined for violating speed limit while driving");
