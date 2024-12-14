@@ -3,6 +3,7 @@ package relational;
 import java.util.Scanner;
 
 public class StockMonitoring {
+    public int x;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter stock ongoing price");
