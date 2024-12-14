@@ -1,3 +1,5 @@
+package patterns;
+
 public class LeftHalfPyramid {
 
     // pseudo code

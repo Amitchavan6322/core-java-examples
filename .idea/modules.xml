@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/arithmetic-operator-examples/arithmetic-operator-examples.iml" filepath="$PROJECT_DIR$/arithmetic-operator-examples/arithmetic-operator-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/core-java-examples.iml" filepath="$PROJECT_DIR$/.idea/core-java-examples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/loops-patterns/loops-patterns.iml" filepath="$PROJECT_DIR$/loops-patterns/loops-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loops/loops.iml" filepath="$PROJECT_DIR$/loops/loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/operators/operators.iml" filepath="$PROJECT_DIR$/operators/operators.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-inputs-examples/user-inputs-examples.iml" filepath="$PROJECT_DIR$/user-inputs-examples/user-inputs-examples.iml" />
     </modules>
