@@ -2,19 +2,25 @@ package patterns;
 
 public class TriangleStarPattern {
     public static void main(String[] args) {
-        int i;
-        for (i = 5; i > 0; i--) {
-            for (int k = 0; k < i / 2; k++) {
-                //System.out.println(i/2);
-                System.out.print("A");
-            }
-            for (int j = 5; j >= i; j--) {
-                System.out.print("*");
-            }
+        // psudo code
+        //     *
+        //    * *
+        //   * * *
+        //  * * * *
+        // * * * * *
 
-            for (int k = 0; k < i / 2; k++) {
-                //System.out.println(i/2);
-                System.out.print("A");
+        int i;
+
+        // loop to iterate for rows
+        for (i = 0; i <= 5; i++) {
+
+            // loop to print spaces
+            for (int j = 5; j > i; j--) {
+                System.out.print(" ");
+            }
+            // loop to print *
+            for (int j = 0; j < i; j++) {
+                System.out.print("* ");
             }
             System.out.println("");
         }
