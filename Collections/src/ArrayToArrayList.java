@@ -17,7 +17,7 @@ public class ArrayToArrayList {
         //students.add("Akshay");
         //System.out.println("Students at line 18: "+students);
 
-        List<String> studentAL = new ArrayList<>(Arrays.asList(studentNames));
+        ArrayList<String> studentAL = new ArrayList<>(Arrays.asList(studentNames));
 
         studentAL.add("Akshay");
         studentAL.add("Vaishnavi");
