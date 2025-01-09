@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class ArrayToArrayList {
 
@@ -19,10 +16,49 @@ public class ArrayToArrayList {
 
         ArrayList<String> studentAL = new ArrayList<>(Arrays.asList(studentNames));
 
+        // add method
         studentAL.add("Akshay");
         studentAL.add("Vaishnavi");
 
-        System.out.println("Students at line 24: " + studentAL);
+        System.out.println("Students at line 26: " + studentAL);
+
+        // get method
+        System.out.println("getting 3rd student name : " +studentAL.get(2));
+
+        // remove method
+        System.out.println("removing 4th student :" +studentAL.remove(4));
+        System.out.println("printing remaining student list : " +studentAL);
+
+        boolean oldStudentsAdded = Collections.addAll(studentAL, "Amit", "Ashish");
+        System.out.println("old list is " +(oldStudentsAdded ? "": "NOT ") + "updated");
+
+        //add all
+        List<String> newStudentList  = new ArrayList<>();
+        newStudentList.addAll(studentAL);
+        System.out.println("new student list "+newStudentList);
+
+        // contains - returns true if list contains specified element
+            if(newStudentList.contains("Amit")){
+                System.out.println("student list has Amit");
+            }
+
+            // size
+        System.out.println("size of student list : "+newStudentList.size());
+
+            //iterator() - returns iterator object that can be used to sequentially access elements
+        Iterator<String> studentIterator = newStudentList.iterator();
+        while(studentIterator.hasNext()){
+            System.out.println("next student line 51 : " +studentIterator.next());
+        }
+
+        ListIterator<String> studentIterator2 = newStudentList.listIterator();
+        while(studentIterator2.hasNext()){
+            System.out.println("next student in ListIterator : " +studentIterator2.next());
+        }
+
+        while (studentIterator2.hasPrevious()) {
+            System.out.println("previous student in ListIterator : " +studentIterator2.previous());
+        }
 
 
         // using add all method:
