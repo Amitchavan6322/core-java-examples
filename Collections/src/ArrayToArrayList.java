@@ -61,6 +61,10 @@ public class ArrayToArrayList {
         }
 
 
+        //toArray() - converts list into an array
+        String[] studentArray = newStudentList.toArray(String[]::new);
+        System.out.println("Student array "+studentArray);
+        
         // using add all method:
         List<String> al = new ArrayList<String>();
 

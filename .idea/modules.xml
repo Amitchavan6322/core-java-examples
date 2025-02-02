@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
       <module fileurl="file://$PROJECT_DIR$/access-specifiers/access-specifiers.iml" filepath="$PROJECT_DIR$/access-specifiers/access-specifiers.iml" />
       <module fileurl="file://$PROJECT_DIR$/arithmetic-operator-examples/arithmetic-operator-examples.iml" filepath="$PROJECT_DIR$/arithmetic-operator-examples/arithmetic-operator-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/core-java-examples.iml" filepath="$PROJECT_DIR$/.idea/core-java-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file/file.iml" filepath="$PROJECT_DIR$/file/file.iml" />
       <module fileurl="file://$PROJECT_DIR$/loops/loops.iml" filepath="$PROJECT_DIR$/loops/loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/operators/operators.iml" filepath="$PROJECT_DIR$/operators/operators.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-inputs-examples/user-inputs-examples.iml" filepath="$PROJECT_DIR$/user-inputs-examples/user-inputs-examples.iml" />
